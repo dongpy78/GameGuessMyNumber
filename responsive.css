@@ -1,0 +1,55 @@
+
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* mobile */
+@media only screen and (max-width: 46.1875em) {
+ h1 {
+  font-size: 2rem;
+ }
+ .btn, .between {
+  font-size: 1rem;
+ }
+
+ .between {
+  top: 4rem;
+ }
+
+ .number {
+  font-size: 3rem;
+  width: 12rem;
+ }
+
+ main {
+  display: flex;
+  flex-direction: column-reverse;
+ }
+
+ .message {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  height: 3rem;
+ }
+
+ .label-score {
+  margin-bottom: 3rem;
+}
+
+ .right {
+  width: 52rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.guess {
+  padding: 2.5rem;
+  width: 16rem;
+  font-size: 1.8rem;
+}
+
+.right p {
+  font-size: 1.6rem;
+}
+}
